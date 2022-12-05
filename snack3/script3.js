@@ -85,13 +85,22 @@ const zucchine = [
 
 
 let somma = 0;
+let pesoMedio = 0;
+let lunghezzaMedia = 0;
+let sommaL = 0;
 
 for(let i = 0; i < zucchine.length; i++){
 
 
     somma = somma + zucchine[i].peso;
-
-
+    sommaL = sommaL + zucchine[i].lunghezza;
+    
 }
 
+pesoMedio = somma / 10;
+lunghezzaMedia = sommaL / 10;
+
 console.log(somma + " kg");
+console.log(pesoMedio + " Kg");
+console.log(sommaL + " M");
+console.log(lunghezzaMedia + " M");
