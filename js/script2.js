@@ -14,43 +14,43 @@
 
 
 const auto = [
-panda = {
+{
     marca : "fiat",
     modello : "panda",
     alimentazione : "benzina"
-}, q8 = {
+},{
     marca: "alfaRomeo",
     modello: "q8",
     alimentazione: "gpl"
-}, giulietta = {
+}, {
     marca: "alfaRomeo",
     modello: "giulietta",
     alimentazione: "diesel"
-}, cinquecento = {
+},  {
     marca: "fiat",
     modello: "500",
     alimentazione: "benzina"
-}, ignis = {
+},  {
     marca: "suzuki",
     modello: "ignis",
     alimentazione: "elettrico"
-}, focus = {
+}, {
     marca: "ford",
     modello: "focus",
     alimentazione: "metano"
-}, fiesta = {
+},  {
     marca: "ford",
     modello: "fiesta",
     alimentazione: "benzina"
-}, cMax = {
+},  {
     marca: "ford",
     modello: "c-max",
     alimentazione: "diesel"
-}, up = {
+},  {
     marca: "volkswagen",
     modello: "up",
     alimentazione: "gpl"
-}, camaro = {
+},  {
     marca: "chevrolet",
     modello: "camaro",
     alimentazione: "diesel"
