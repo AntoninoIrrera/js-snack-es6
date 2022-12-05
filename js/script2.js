@@ -64,11 +64,11 @@ const altreAlimentazioni = [];
 for( let i = 0; i < auto.length; i++){
 
     if(auto[i].alimentazione == "benzina"){
-        benzina.push(auto[i].modello);
+        benzina.push(auto[i].marca + " " + auto[i].modello);
     } else if (auto[i].alimentazione == "diesel"){
-        diesel.push(auto[i].modello);
+        diesel.push(auto[i].marca + " " + auto[i].modello);
     }else{
-        altreAlimentazioni.push(auto[i].modello);
+        altreAlimentazioni.push(auto[i].marca + " " + auto[i].modello);
     }
 
 }
