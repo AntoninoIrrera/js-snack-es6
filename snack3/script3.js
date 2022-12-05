@@ -97,8 +97,8 @@ for(let i = 0; i < zucchine.length; i++){
     
 }
 
-pesoMedio = somma / 10;
-lunghezzaMedia = sommaL / 10;
+pesoMedio = somma / zucchine.length;
+lunghezzaMedia = sommaL / zucchine.length;
 
 console.log(somma + " kg");
 console.log(pesoMedio + " Kg");
