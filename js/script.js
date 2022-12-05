@@ -23,8 +23,8 @@ for(let chiave in studente){
     console.log(chiave, ":" , studente[chiave]);
 
     
+    arrayOgettiStudenti.push(studente[chiave]);
 }
-arrayOgettiStudenti.push(studente);
 
 
 console.log(arrayOgettiStudenti);
