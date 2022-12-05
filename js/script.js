@@ -7,24 +7,45 @@
 */
 
 
-const studente = {
+const studente = [{
 
-    nome : "Fabio",
-    cognome : "Matto",
-    age : 101,
+    nome: "Fabio",
+    cognome: "Matto",
+    age: 101,
+ },
+{ 
+     nome: "Michele",
+    cognome: "Ortigiani",
+    age: 99,
+
+ },
+ { 
+    nome: "Luca",
+    cognome: "Mazza",
+    age: 88,
+
+    nome: "Francesco",
+    cognome: "Sorbetto",
+    age: 66,
 
 }
 
+] 
 const arrayOgettiStudenti = [];
 
 
-for(let chiave in studente){
 
-    console.log(chiave, ":" , studente[chiave]);
 
     
-    arrayOgettiStudenti.push(studente[chiave]);
-}
+    for(let chiave in studente){
+    
+        console.log(studente[chiave]);
+    
+        arrayOgettiStudenti.push(studente[chiave]);
+    }
+
+
+
 
 
 console.log(arrayOgettiStudenti);
