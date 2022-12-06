@@ -66,25 +66,40 @@ const persone = [
 ]
 
 let guidare;
+const personeNuove = [];
+
 
 persone.forEach(persona => {
 
-    if (persona.age >= 18) {
+    personeNuove.push(persona)
+
+    
+
+});
+
+
+personeNuove.forEach((personaNuova) => {
+
+    if (personaNuova.age >= 18) {
 
         guidare = true;
 
-    }else{
+    } else {
         guidare = false;
     }
 
-    if(guidare){
+    if (guidare) {
         guidare = "si";
-    }else{
+    } else {
         guidare = "no";
     }
 
-    console.log(persona.nome + " " + persona.cognome + " " + "Può guidare?" + " " + guidare)
-});
+    console.log(personaNuova.nome + " " + personaNuova.cognome + " " + "Può guidare?" + " " + guidare)
+
+
+
+})
+
 
 
 
